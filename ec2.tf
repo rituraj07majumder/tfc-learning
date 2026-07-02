@@ -7,7 +7,7 @@ resource "aws_security_group" "test_sg02" {
   name        = "test-sg02"
   description = "Minimal security group with no rules"
 tags = {
-    Name       = "example-sg"
+    Name       = "Cost Centre"
     CostCenter = "12345"
   }
 }

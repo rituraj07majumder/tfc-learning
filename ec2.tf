@@ -8,5 +8,6 @@ module "terraform-aws-sg" {
 
   tags = {
     Environment = "production"
+    "Cost Centre" = "12345"
   }
 }

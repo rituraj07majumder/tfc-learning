@@ -1,5 +1,5 @@
 
-module "app_security_group" {
+module "this" {
   source  = "app.terraform.io/rituraj07majumder/terraform-aws-sg/aws"
   version = ">= 5.0"
 

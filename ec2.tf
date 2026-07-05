@@ -1,7 +1,7 @@
 
 module "this" {
   source  = "app.terraform.io/rituraj07majumder/terraform-aws-sg/aws"
-  version = ">= 5.0"
+  version = ">= 1.0"
 
   name        = "test-sg-01"
   description = "Security group for test01"

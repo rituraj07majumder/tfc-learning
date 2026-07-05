@@ -8,6 +8,5 @@ module "terraform-aws-sg" {
 
   tags = {
     Environment = "production"
-#    Team        = "backend"
   }
 }

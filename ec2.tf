@@ -1,6 +1,6 @@
 
 module "this" {
-  source  = "app.terraform.io/rituraj07majumder/terraform-aws-sg/aws"
+  source  = "app.terraform.io/rituraj07majumder/sg/aws"
   version = ">= 1.0"
 
   name        = "test-sg-01"

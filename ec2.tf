@@ -6,8 +6,8 @@ module "this" {
   name        = "test-sg-01"
   description = "Security group for test01"
 
-#  tags = {
-#    Environment = "production"
+  tags = {
+    Environment = "production"
 #    Team        = "backend"
-#  }
+  }
 }

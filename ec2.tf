@@ -1,6 +1,6 @@
 
 module "terraform-aws-sg" {
-  source  = "app.terraform.io/rituraj07majumder/sg/aws"
+  source  = "app.terraform.io/raj-org1/sg/aws"
   version = ">= 1.0"
 
   name        = "test-sg-01"
